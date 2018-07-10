@@ -20,6 +20,7 @@ in the project folder.
 
 Usage
 -----------------------------
+```
 Usage: cpuminer-sha3 [OPTIONS]
 Options:
   -u, --user=USERNAME   username for mining server
@@ -30,6 +31,7 @@ Options:
   -T, --timeout=N       timeout for stratum (default: 300 seconds)
   -V, --version         display version information and exit
   -h, --help            display this help text and exit
+```
 
 cpuminer connects and works only with sha3.pool.atomminer.com:4123 stratum endpoint.
 No registration needed, just use your ZP wallet address as a login to start mining.
