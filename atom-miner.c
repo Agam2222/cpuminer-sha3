@@ -1208,7 +1208,7 @@ int main(int argc, char *argv[]) {
 
 	show_credits();
 
-    rpc_url = strdup("stratum+tcp://sha3.pool.atomminer.com:5143");
+    rpc_url = strdup("stratum+tcp://zp.pool.atomminer.com:5143");
     //rpc_url = strdup("stratum+tcp://localhost:5143");
     rpc_user = strdup("zen1qnwls4fxx48yz92yyytmzpy5e4pk7qsh69hjgx06z6x4n5n6sp6usuhw3tv");
     rpc_pass = strdup("d=0.1");
