@@ -841,7 +841,7 @@ void diff_to_target(uint32_t *target, double diff)
 	int k;
 	
 	for (k = 6; k > 0 && diff > 1.0; k--)
-		diff /= 4294967296.0;
+		diff /= 4294967296.0/1000;
 	m = (uint64_t)(4294901760.0 / diff);
 	if (m == 0 && k == 6)
 		memset(target, 0xff, 32);
